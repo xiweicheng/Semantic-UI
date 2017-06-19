@@ -9,8 +9,8 @@
 @fontName          : 'Arial';
 @fontSmoothing     : antialiased;
 
-@headerFont        : @fontName, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
-@pageFont          : @fontName, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+@headerFont        : @fontName, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+@pageFont          : @fontName, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
 
 @googleFontName    : @fontName;
 @importGoogleFonts : false;
