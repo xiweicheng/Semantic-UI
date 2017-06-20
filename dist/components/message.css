@@ -41,7 +41,7 @@
 /* Header */
 .ui.message .header {
   display: block;
-  font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   margin: -0.14285714em 0em 0rem 0em;
 }

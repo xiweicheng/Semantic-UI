@@ -37,7 +37,7 @@
 }
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1.14285714em;
   line-height: 1.2;
   font-weight: bold;

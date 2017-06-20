@@ -100,7 +100,7 @@
 
 /* Text Container */
 .ui.text.container {
-  font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   max-width: 700px !important;
   line-height: 1.5;
 }

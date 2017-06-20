@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tms-semantic-ui@^2.2.4",
+        "scope": null,
+        "escapedName": "tms-semantic-ui",
+        "name": "tms-semantic-ui",
+        "rawSpec": "^2.2.4",
+        "spec": ">=2.2.4 <3.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\Administrator.C64-20150714NBW\\Desktop\\code\\tms\\src\\main\\resources\\static\\page"
+    ]
+  ],
+  "_from": "tms-semantic-ui@>=2.2.4 <3.0.0",
+  "_id": "tms-semantic-ui@2.2.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/tms-semantic-ui",
+  "_nodeVersion": "4.4.2",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/tms-semantic-ui-2.2.4.tgz_1474294252968_0.14997728681191802"
+  },
+  "_npmUser": {
+    "name": "xiwc",
+    "email": "xiwc87@yeah.net"
+  },
+  "_npmVersion": "3.10.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tms-semantic-ui@^2.2.4",
+    "scope": null,
+    "escapedName": "tms-semantic-ui",
+    "name": "tms-semantic-ui",
+    "rawSpec": "^2.2.4",
+    "spec": ">=2.2.4 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tms-semantic-ui/-/tms-semantic-ui-2.2.4.tgz",
+  "_shasum": "42026650fda7437f14b4b344fcb812970939bef5",
+  "_shrinkwrap": null,
+  "_spec": "tms-semantic-ui@^2.2.4",
+  "_where": "C:\\Users\\Administrator.C64-20150714NBW\\Desktop\\code\\tms\\src\\main\\resources\\static\\page",
+  "author": {
+    "name": "xiwc"
+  },
+  "dependencies": {},
+  "description": "This repository is automatically synced with the main [Semantic UI](https://github.com/Semantic-Org/Semantic-UI) repository to provide lightweight CSS only version of Semantic UI.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "42026650fda7437f14b4b344fcb812970939bef5",
+    "tarball": "https://registry.npmjs.org/tms-semantic-ui/-/tms-semantic-ui-2.2.4.tgz"
+  },
+  "keywords": [
+    "semantic-ui"
+  ],
+  "license": "MIT",
+  "main": "semantic.js",
+  "maintainers": [
+    {
+      "name": "xiwc",
+      "email": "xiwc87@yeah.net"
+    }
+  ],
+  "name": "tms-semantic-ui",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.2.10"
+}
