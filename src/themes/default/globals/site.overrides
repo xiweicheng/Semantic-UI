@@ -1,14 +1,3 @@
 /*******************************
         Global Overrides
 *******************************/
-
-/*-------------------
-       Fonts
---------------------*/
-
-@fontName          : 'Arial';
-
-@headerFont        : @fontName, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
-@pageFont          : @fontName, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
-
-@importGoogleFonts : false;
