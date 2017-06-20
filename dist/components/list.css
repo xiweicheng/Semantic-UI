@@ -53,7 +53,7 @@ ol.ui.list li,
 }
 ul.ui.list > li:first-child:after,
 ol.ui.list > li:first-child:after,
-.ui.list > .list > .item,
+.ui.list > .list > .item:after,
 .ui.list > .item:after {
   content: '';
   display: block;
@@ -159,7 +159,7 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -941,11 +941,5 @@ ol.ui.horizontal.list li:before,
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-    User Variable Overrides
 *******************************/
 
