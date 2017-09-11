@@ -8,7 +8,6 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.2.12 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -530,10 +529,6 @@ template {
 [hidden] {
   display: none;
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Site
  * http://github.com/semantic-org/semantic-ui/
@@ -563,7 +558,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -579,7 +574,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   font-weight: bold;
@@ -748,10 +743,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
         Global Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Button
  * http://github.com/semantic-org/semantic-ui/
@@ -775,7 +766,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
   text-transform: none;
@@ -4698,10 +4689,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Container
  * http://github.com/semantic-org/semantic-ui/
@@ -4818,7 +4805,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /* Text Container */
 
 .ui.text.container {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   max-width: 700px !important;
   line-height: 1.5;
 }
@@ -4858,10 +4845,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Divider
@@ -5126,10 +5109,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC');
   }
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Flag
  * http://github.com/semantic-org/semantic-ui/
@@ -6397,10 +6376,6 @@ i.flag.zw:before,
 i.flag.zimbabwe:before {
   background-position: -108px -390px;
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Header
  * http://github.com/semantic-org/semantic-ui/
@@ -6421,7 +6396,7 @@ i.flag.zimbabwe:before {
   border: none;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   line-height: 1.28571429em;
   text-transform: none;
@@ -7217,10 +7192,6 @@ a.ui.inverted.grey.header:hover {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Icon
@@ -11496,10 +11467,6 @@ i.icon.times.rectangle:before {
 i.icon.times.rectangle.outline:before {
   content: "\f2d4";
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Image
  * http://github.com/semantic-org/semantic-ui/
@@ -11813,10 +11780,6 @@ img.ui.bordered.image {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Input
  * http://github.com/semantic-org/semantic-ui/
@@ -11855,7 +11818,7 @@ img.ui.bordered.image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.21428571em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   padding: 0.67857143em 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -12376,10 +12339,6 @@ img.ui.bordered.image {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Label
@@ -13802,10 +13761,6 @@ a.ui.basic.label:hover {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - List
  * http://github.com/semantic-org/semantic-ui/
@@ -13862,7 +13817,7 @@ ol.ui.list li,
 
 ul.ui.list > li:first-child:after,
 ol.ui.list > li:first-child:after,
-.ui.list > .list > .item,
+.ui.list > .list > .item:after,
 .ui.list > .item:after {
   content: '';
   display: block;
@@ -13983,7 +13938,7 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -14879,10 +14834,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Loader
  * http://github.com/semantic-org/semantic-ui/
@@ -15257,10 +15208,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Rail
  * http://github.com/semantic-org/semantic-ui/
@@ -15418,10 +15365,6 @@ ol.ui.horizontal.list li:before,
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Reveal
@@ -15723,10 +15666,6 @@ ol.ui.horizontal.list li:before,
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Segment
@@ -16605,10 +16544,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Step
  * http://github.com/semantic-org/semantic-ui/
@@ -16744,7 +16679,7 @@ ol.ui.horizontal.list li:before,
 /* Title */
 
 .ui.steps .step .title {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1.14285714em;
   font-weight: bold;
 }
@@ -17292,10 +17227,6 @@ ol.ui.horizontal.list li:before,
   content: '\e800';
   /* '' */
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Breadcrumb
  * http://github.com/semantic-org/semantic-ui/
@@ -17423,10 +17354,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Form
  * http://github.com/semantic-org/semantic-ui/
@@ -17530,7 +17457,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -18588,10 +18515,6 @@ ol.ui.horizontal.list li:before,
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Grid
@@ -20861,10 +20784,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*
  * # Semantic - Menu
  * http://github.com/semantic-org/semantic-ui/
@@ -20889,7 +20808,7 @@ ol.ui.horizontal.list li:before,
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -23115,10 +23034,6 @@ Floated Menu / Item
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Message
  * http://github.com/semantic-org/semantic-ui/
@@ -23163,7 +23078,7 @@ Floated Menu / Item
 
 .ui.message .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   margin: -0.14285714em 0em 0rem 0em;
 }
@@ -23661,10 +23576,6 @@ Floated Menu / Item
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-        Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Table
@@ -24926,10 +24837,6 @@ Floated Menu / Item
 .ui.large.table {
   font-size: 1.1em;
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Ad
  * http://github.com/semantic-org/semantic-ui/
@@ -25215,10 +25122,6 @@ Floated Menu / Item
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Item
  * http://github.com/semantic-org/semantic-ui/
@@ -25399,7 +25302,7 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -26289,10 +26192,6 @@ a.ui.card:hover,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Comment
  * http://github.com/semantic-org/semantic-ui/
@@ -26573,10 +26472,6 @@ a.ui.card:hover,
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-    User Variable Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Feed
@@ -26888,10 +26783,6 @@ a.ui.card:hover,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Item
  * http://github.com/semantic-org/semantic-ui/
@@ -27040,7 +26931,7 @@ a.ui.card:hover,
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.21425em 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -27408,10 +27299,6 @@ a.ui.card:hover,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Statistic
  * http://github.com/semantic-org/semantic-ui/
@@ -27520,7 +27407,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
@@ -27535,7 +27422,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1em;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -28044,10 +27931,6 @@ a.ui.card:hover,
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Accordion
  * http://github.com/semantic-org/semantic-ui/
@@ -28083,7 +27966,7 @@ a.ui.card:hover,
 
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -28306,10 +28189,6 @@ a.ui.card:hover,
 .ui.accordion .accordion .title .dropdown.icon:before {
   content: '\f0da' ;
 }
-
-/*******************************
-        User Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
@@ -28974,10 +28853,6 @@ a.ui.card:hover,
 .dash:before  { content: '\e801'; }
 .plus:before { content: '\e802'; }
 */
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Dimmer
  * http://github.com/semantic-org/semantic-ui/
@@ -29199,10 +29074,6 @@ body.dimmable > .dimmer {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-        User Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Dropdown
@@ -30814,10 +30685,6 @@ select.ui.dropdown {
   content: "\f0da";
 }
 */
-
-/*******************************
-        User Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Video
  * http://github.com/semantic-org/semantic-ui/
@@ -30961,10 +30828,6 @@ select.ui.dropdown {
 *******************************/
 
 /*******************************
-         Site Overrides
-*******************************/
-
-/*******************************
           Variations
 *******************************/
 
@@ -31060,7 +30923,7 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -31629,10 +31492,6 @@ select.ui.dropdown {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Nag
  * http://github.com/semantic-org/semantic-ui/
@@ -31774,10 +31633,6 @@ a.ui.nag {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-        User Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Popup
  * http://github.com/semantic-org/semantic-ui/
@@ -31816,7 +31671,7 @@ a.ui.nag {
 
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1.14285714em;
   line-height: 1.2;
   font-weight: bold;
@@ -32585,10 +32440,6 @@ a.ui.nag {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-        User Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
@@ -33166,10 +33017,6 @@ a.ui.nag {
 /*******************************
             Progress
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Rating
  * http://github.com/semantic-org/semantic-ui/
@@ -33443,10 +33290,6 @@ a.ui.nag {
 .ui.heart.rating .active.icon:before {
   content: '\f004';
 }
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Search
  * http://github.com/semantic-org/semantic-ui/
@@ -33571,7 +33414,7 @@ a.ui.nag {
 
 .ui.search > .results .result .title {
   margin: -0.14285714em 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -33597,7 +33440,7 @@ a.ui.nag {
 }
 
 .ui.search > .results > .message .header {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -33807,7 +33650,7 @@ a.ui.nag {
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: transparent;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1em;
   float: 1em;
   float: left;
@@ -33876,10 +33719,6 @@ a.ui.nag {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Shape
@@ -34035,10 +33874,6 @@ a.ui.nag {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-        User Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Sidebar
@@ -34719,10 +34554,6 @@ body.pushable > .pusher {
 /*******************************
          Theme Overrides
 *******************************/
-
-/*******************************
-         Site Overrides
-*******************************/
 /*!
  * # Semantic UI 2.2.12 - Sticky
  * http://github.com/semantic-org/semantic-ui/
@@ -34792,10 +34623,6 @@ body.pushable > .pusher {
 
 /*******************************
          Theme Overrides
-*******************************/
-
-/*******************************
-         Site Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Tab
@@ -34879,10 +34706,6 @@ body.pushable > .pusher {
 
 /*******************************
          Tab Overrides
-*******************************/
-
-/*******************************
-        User Overrides
 *******************************/
 /*!
  * # Semantic UI 2.2.12 - Transition
@@ -37117,7 +36940,3 @@ body.pushable > .pusher {
     transform: scale3d(1, 1, 1);
   }
 }
-
-/*******************************
-         Site Overrides
-*******************************/

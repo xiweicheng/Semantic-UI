@@ -24,7 +24,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -2001,11 +2001,5 @@ Floated Menu / Item
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
 *******************************/
 

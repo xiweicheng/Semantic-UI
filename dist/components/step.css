@@ -129,7 +129,7 @@
 
 /* Title */
 .ui.steps .step .title {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-size: 1.14285714em;
   font-weight: bold;
 }
@@ -615,9 +615,3 @@
   
 /* '' */
 }
-
-
-/*******************************
-         Site Overrides
-*******************************/
-

@@ -99,7 +99,7 @@
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -1057,11 +1057,5 @@
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
 *******************************/
 

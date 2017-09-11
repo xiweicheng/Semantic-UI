@@ -138,7 +138,7 @@
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.21425em 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -476,11 +476,5 @@
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-    User Variable Overrides
 *******************************/
 

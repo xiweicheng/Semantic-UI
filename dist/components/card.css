@@ -167,7 +167,7 @@
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Hiragino Sans GB', SimSun, 'Microsoft YaHei', '微软雅黑', STHeiti, 'WenQuanYi Micro Hei', sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -954,11 +954,5 @@ a.ui.card:hover,
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-    User Variable Overrides
 *******************************/
 
